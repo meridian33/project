@@ -1,37 +1,30 @@
-"use strict";
+// const hamburger = false;
+// const fries = false;
 
-// if (4 == 9) {
-//     console.log("Okay");
-// }
-// else {
-//     console.log("Bad");
-// }
-
-
-
-// if (num < 51) {
-//     console.log("Число меньше 51");
-// } else if (num > 100) {
-//     console.log("Число больше 100");
+// if (hamburger && fries) {
+//     console.log('Im full');
+// } else if (hamburger) {
+//     console.log("Im 75% full");
+// } else if (fries) {
+//     console.log("im 25% full");
 // } else {
-//     console.log("Okay");
+//     console.log("im hungry");
 // }
 
-// (num === 50) ? console.log("Ok") : console.log("Error");
 
-const num = '50';
+const hamburger = 3;
+const fries = 1;
+const cola = 0;
 
-switch (num) {
-    case '49':
-        console.log("Not true");
-        break;
-    case '100':
-        console.log("not true");
-        break;
-    case '50':
-        console.log('True');
-        break;
-    default:
-        console.log("Not today");
-        break;
+console.log((hamburger === 3 && cola && fries));
+
+console.log(1 && 0);
+console.log(1 && 5);
+console.log(null && 5);
+console.log(0 && "qfqwefqf");
+
+if (hamburger === 3 && cola === 1 && fries) {
+    console.log("Everyones glad");
+} else {
+    console.log("Everyones goes to another establishment");
 }
