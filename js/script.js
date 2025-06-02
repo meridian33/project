@@ -1,27 +1,37 @@
-// Exercise N1
+"use strict";
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
-
-
-// Exercise N2
-
-personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// if (4 == 9) {
+//     console.log("Okay");
+// }
+// else {
+//     console.log("Bad");
+// }
 
 
-// Exercise N3
 
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-      b = prompt('Насколько оцените его?', ''),
-      c = prompt('Один из последних просмотренных фильмов?', ''),
-      d = prompt('Насколько оцените его?', '');
+// if (num < 51) {
+//     console.log("Число меньше 51");
+// } else if (num > 100) {
+//     console.log("Число больше 100");
+// } else {
+//     console.log("Okay");
+// }
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// (num === 50) ? console.log("Ok") : console.log("Error");
 
-console.log(personalMovieDB);
+const num = '50';
+
+switch (num) {
+    case '49':
+        console.log("Not true");
+        break;
+    case '100':
+        console.log("not true");
+        break;
+    case '50':
+        console.log('True');
+        break;
+    default:
+        console.log("Not today");
+        break;
+}
